@@ -13,7 +13,7 @@ from AnonXMusic.utils.channelplay import get_channeplayCB
 from AnonXMusic.utils.decorators.language import languageCB
 from AnonXMusic.utils.decorators.play import PlayWrapper
 from AnonXMusic.utils.formatters import formats
-from AnonX.utils.database import is_served_user
+from AnonXMusic.utils.database import is_served_user
 from AnonXMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,

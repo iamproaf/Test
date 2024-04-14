@@ -1,4 +1,5 @@
 aiofiles
+wget
 aiohttp
 asyncio
 telegraph

@@ -3,12 +3,8 @@ from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
 from os import environ
 from typing import Union, Optional
-from PIL import Image, ImageDraw, ImageFont
-from os import environ
-import random
 from pyrogram import Client, filters
 from pyrogram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
-from PIL import Image, ImageDraw, ImageFont
 import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
@@ -24,21 +20,15 @@ from logging import getLogger
 from pyrogram import Client, filters
 import requests
 import random
-import os
 import re
 import asyncio
-import time
 from AnonXMusic.utils.database import add_served_chat
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from AnonXMusic.utils.database import get_assistant
-import asyncio
 from AnonXMusic.misc import SUDOERS
 from AnonXMusic.mongo.afkdb import PROCESS
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
-from AnonXMusic import app
-import asyncio
-import random
 from pyrogram import Client, filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import (
@@ -59,9 +49,6 @@ random_photo = [
     "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
 ]
 # --------------------------------------------------------------------------------- #
-
-
-
 
 
 LOGGER = getLogger(__name__)

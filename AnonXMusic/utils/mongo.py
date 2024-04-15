@@ -1,8 +1,3 @@
-                                
-"""
-✩░▒▓▆▅▃▂▁𝐍𝐚𝐢𝐧𝐚▁▂▃▅▆▓▒░✩
-"""
-
 from typing import Dict, Union
 
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
